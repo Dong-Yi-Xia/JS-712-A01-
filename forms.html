@@ -1,0 +1,68 @@
+<html>
+
+ <head>
+  <title>Forms</title>
+  <style>
+     body{
+        background-color: beige;
+        padding-left: 90px;
+     }
+  </style>
+ </head>
+
+ <body>
+ <center><h1>Form Created in HTML</h1></center>
+  <h3><i>Please fill in the following form:</i></h3>
+  <hr>
+   <form action='process.aspx' method='post'>
+      First Name: <input type='text' name='firstname'><br>
+      Last Name: <input type='text' name='lastname'>
+      <p>
+
+      My School is: <br>
+      <input type='radio' name='school' value='qcc'>Queensborough CC <br>	
+      <input type='radio' name='school' value='bcc'>Bronx CC <br>	
+      <input type='radio' name='school' value='devry'>DeVry <br>	
+      <input type='radio' name='school' value='yale'>Yale University <br>	
+      <p>	
+
+      My Interest are: <br>
+      <input type='checkbox' name='interest1' value='robots'>Robotics <br>	
+      <input type='checkbox' name='interest2' value='arts'>Arts <br>	
+      <input type='checkbox' name='interest3' value='dance'>Hip Hop Dance <br>	
+      <input type='checkbox' name='interest4' value='games'>Computer Games <br>	
+      <p>	
+
+      My Family is from:
+      <select name='origin'>
+      <option selected >--please choose one--
+      <option value='asia'>Asia
+      <option value='america'>America
+      <option value='africa'>Africa
+      <option value='europe'>Europe
+      <option value='pacific'>Pacific Islands
+      </select>
+      <p>
+
+      I would like to visit: <br>
+      <select name='visit' size=6>
+      <option selected >--please choose one--
+      <option value='asia'>Asia
+      <option value='america'>America
+      <option value='africa'>Africa
+      <option value='europe'>Europe
+      <option value='pacific'>Pacific Islands
+      </select>
+      <p>
+
+      Please put some comments belows:<br>
+      <textarea name='comments' rows=4 cols=50>Please be nice to me...</textarea>
+      <p>
+      <input type='submit' value='Send it to me'> 
+      <input type='reset' value='Do it over'>
+      <p>
+      Password: <input type='password' name='pw'>
+   </form>			
+ </body>	
+
+</html>
